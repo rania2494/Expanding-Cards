@@ -1,0 +1,44 @@
+body{
+    background-image: url(../images/Luxor.jpg);
+    background-size: cover;
+    background-position: center right;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lugrasimo', cursive;
+}
+.animation{
+    animation: 2s opacity;
+
+}
+
+
+.vh-70{
+    height: 70vh;
+}
+
+.background-cover{
+background-size: cover;
+}
+
+
+.non-active {
+    width: 5%;
+    cursor: pointer;
+    
+}
+
+.non-active h3 {
+display: none;}
+
+.active{
+    width: 80%;
+    animation: 2s opacity;
+    cursor: pointer;
+}
+
+.active h3{
+display: flex;
+}
+@keyframes opacity{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
